@@ -1,0 +1,3 @@
+#VS C++ ignored due to issues w/ pushing and keeping editor open
+ipch/
+*.opendb

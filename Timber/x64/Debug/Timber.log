@@ -1,0 +1,10 @@
+﻿Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+Timber.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+C:\Program Files (x86)\SFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\SFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\SFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\SFML\lib\sfml-network-d.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\SFML\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Stin\Desktop\Visual Studio Stuff\Projects\Timber\x64\Debug\Timber.exe : fatal error LNK1120: 4 unresolved externals
